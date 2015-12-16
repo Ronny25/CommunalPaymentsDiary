@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ffe6b440</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff1e115b</color>
+    <color name="bsHeader">#82000000</color>
+    <color name="bsRegular">#de000000</color>
+    <color name="black">#ff000000</color>
+    <color name="royalBlue">#ff1e115b</color>
+    <color name="white">#ffffffff</color>
+</resources>

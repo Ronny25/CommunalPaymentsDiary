@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:key="SecondPrefScreen"
+        android:summary="Выберите необходимые услуги"
+        android:title="Услуги">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxElectr"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/electricity" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxHome"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/homePay" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxColdW"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/cold_water" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxHotW"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/hot_water" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxGaz"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/gaz" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxHeat"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/heat" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxTel"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/telephone" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxInter"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/internet" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxIntCom"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/intercom" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxSecur"
+            android:summaryOff="@string/chbSumOff"
+            android:summaryOn="@string/chbSumOn"
+            android:title="@string/security" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/taxes">
+        <Preference
+            android:enabled="true"
+            android:key="electrTaxes"
+            android:selectable="true"
+            android:summary="@string/set_tax"
+            android:title="@string/electricity" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="homeTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/homePay" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="coldWTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/cold_water" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="hotWTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/hot_water" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="gazTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/gaz" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="heatTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/heat" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="telTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/telephone" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="interTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/internet" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="intComTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/intercom" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberDecimal"
+            android:key="securTax_editText"
+            android:summary="@string/set_tax"
+            android:title="@string/security" />
+    </PreferenceCategory>
+</PreferenceScreen>
